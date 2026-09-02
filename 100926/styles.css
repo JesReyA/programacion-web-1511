@@ -1,4 +1,4 @@
-/*Eliminar margenes*/
+/*Eliminar margenes del body de la pagina*/
 
 body{
     margin: 0;
@@ -7,5 +7,4 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     min-height: 100vh;
-    
 }
