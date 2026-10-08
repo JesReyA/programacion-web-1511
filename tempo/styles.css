@@ -1,0 +1,111 @@
+/*Eliminar margenes del body de la pagina*/
+
+body{
+    margin: 0;
+    padding: 20px;
+    /*Configuracion del espacio al borde del navegador*/
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%
+}
+
+header{
+    background: #215426;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    /* Auto ajusta elementos*/
+    display: flex;
+    /* Ajusta el espacio entre los elementos del header, separa los elementos*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    background: #c7766a;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgba(51, 48, 48, 0.564);
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: aquamarine;
+}
+
+.layout{
+    margin-top: 35px;
+    display: grid;
+    /*fr es una medida flexible que representa un espacio libre dentro de un contenedor, se puede usar para dividir el espacio disponible en proporciones específicas*/
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+/*MAIN*/
+main{
+    background-color: #6aadc7;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+article{
+    background: #326917;
+    padding: 20px;  
+    border-radius: 15px;
+}
+
+section{
+    background-color: #bb67c1;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+
+.main-footer{
+    background-color: #b02690;
+    padding: 10px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+
+}
+
+aside{
+    background-color: #51989e;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+aside section{
+    background-color: rgb(190, 91, 91);
+    margin-bottom: 10px;
+}
+
+/*footer de forma general*/
+.page-footer{
+    background-color: #819182;
+    margin-top: 35px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 20px;
+}
